@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ashish1101/Nth-logs"
+    "url": "git+https://github.com/Ashish1101/logs-from-dir"
   },
   "bugs": {
-    "url":"https://github.com/Ashish1101/Nth-logs/issues"
+    "url":"https://github.com/Ashish1101/logs-from-dir/issues"
   },
   "author": "Ashish1101",
   "license": "MIT",
-  "homepage": "https://github.com/Ashish1101/Nth-logs/blob/main/README.md"
+  "homepage": "https://github.com/Ashish1101/logs-from-dir#readme"
 }
