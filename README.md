@@ -5,7 +5,7 @@
 ##### Usage
 
 ```javascript
-const { readDir, splitAndStore } = require("./ReadLog");
+const { readDir, splitAndStore } = require("logs-from-dir");
 
 app.get("/readLogs", (req, res) => {
 	let desiredFile;
