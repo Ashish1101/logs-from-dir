@@ -1,13 +1,24 @@
 {
-  "name": "log-reader",
+  "name": "nth-logs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "logs",
+    "file-reader",
+    "fs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish1101/Nth-logs"
+  },
+  "bugs": {
+    "url":"https://github.com/Ashish1101/Nth-logs/issues"
+  },
+  "author": "Ashish1101",
+  "license": "MIT",
+  "homepage": "https://github.com/Ashish1101/Nth-logs/blob/main/README.md"
 }
