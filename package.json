@@ -1,6 +1,6 @@
 {
   "name": "logs-from-dir",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A javascript module to help read the last desired logs from a directory Usage",
   "main": "index.js",
   "scripts": {
