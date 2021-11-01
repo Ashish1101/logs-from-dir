@@ -1,7 +1,7 @@
 {
-  "name": "nth-logs",
+  "name": "logs-from-dir",
   "version": "1.0.0",
-  "description": "A javascript module to help read the last n logs from a directory Usage",
+  "description": "A javascript module to help read the last desired logs from a directory Usage",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
