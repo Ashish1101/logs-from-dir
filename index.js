@@ -15,9 +15,9 @@ const splitAndStore = (fileName , endLine) => {
 }
 
 const readDir = (dirName) => {
-    const directoryPath = path.join(__dirname, dirName);
+    // const directoryPath = path.join(__dirname, dirName);
     return new Promise((resolve , reject) => {
-        fs.readdir(directoryPath , (err , files) => {
+        fs.readdir(dirName , (err , files) => {
             if(err) {
                 reject(`Unable to read directory ${err}`)
             } else {
