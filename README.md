@@ -38,7 +38,7 @@ app.get("/readLogs", (req, res) => {
 
 ```javascript
 app.get("/readLogs",  async (req, res) => {
-	let desiredFile;
+let desiredFile;
     const files = await readDir('./logs');
     await files.map(file => {
          const firstSplit = file?.split('@')[1];
