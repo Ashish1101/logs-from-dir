@@ -55,7 +55,7 @@ app.get("/readLogs",  async (req, res) => {
 
 ##### Tip : to search logs by search Item
 
-```javscript 
+```javascript 
 app.get("/readLogs",  async (req, res) => {
 	let desiredFile;
     const files = await readDir('./logs');
