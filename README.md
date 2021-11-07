@@ -53,7 +53,7 @@ app.get("/readLogs",  async (req, res) => {
 
 ```
 
-##### Tip to search logs by search Item
+##### Tip : to search logs by search Item
 
 ```javscript 
 app.get("/readLogs",  async (req, res) => {
