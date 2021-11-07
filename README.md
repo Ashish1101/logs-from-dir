@@ -52,3 +52,29 @@ app.get("/readLogs",  async (req, res) => {
 });
 
 ```
+
+##### Tip to search logs by search Item
+
+```javscript 
+app.get("/readLogs",  async (req, res) => {
+	let desiredFile;
+    const files = await readDir('./logs');
+    await files.map(file => {
+         const firstSplit = file?.split('@')[1];
+         const secondSplit = firstSplit?.split('.')[0];
+         if(secondSplit === req.body.date) {
+             desiredFile = file
+         }
+    })
+    const printLogs = await splitAndStore(`./logs/${desiredFile}` , req.body.lastLog);
+
+	//add these lines to find only those logs which has
+	//the term you are looking
+	let searchTerm = req.body.search
+	let data = printLogs.filter((log) => {
+		if(log.includes(searchTerm)) return log;
+	})
+    console.log('logs' , data)
+	res.send(data)
+});
+```
